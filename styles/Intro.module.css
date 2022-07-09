@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+
+.card{
+    flex: 1;
+    padding: 100px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.title{
+    font-size: 50px;
+    margin: 0;
+}
+
+.summer{color:green;}
+
+.des{
+    font-size:20px;
+    margin: 0;
+}
+
+.button{
+    background-color:green;
+    border:none;
+    color:white;
+    width: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
